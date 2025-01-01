@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QpgyD1ZlrLo=",
+  "dgSpecHash": "m6R29XLHuxs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
+  "projectFilePath": "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mr. X\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mr. X\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

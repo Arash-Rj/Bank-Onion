@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Src.Domain.Core.Bnak.Users.Entities
+@model List<User>
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered table-sm ">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Is Active</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in @Model)
+            {
+                <tr>
+                    <th>@user.Id</th>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.Password</td>
+                    <td>@user.IsActive</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

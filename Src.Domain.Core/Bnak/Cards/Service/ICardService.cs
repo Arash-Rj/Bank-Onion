@@ -1,4 +1,5 @@
 ﻿
+using Src.Domain.Core.Bnak.BankTransactions.Entities;
 using Src.Domain.Core.Bnak.ResultModel;
 using System;
 using System.Collections.Generic;
@@ -18,5 +19,6 @@ namespace Src.Domain.Core.Bnak.Cards.Service
         public Result ChangecardPass(string cardnumber, string currentpassword, string newpassword);
         public Result GetCardHoldername(string cardnumber);
         public int GenerateRandomCode();
+       
     }
 }

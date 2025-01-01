@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\App.Infra.DataBase.SqlServer.Ef\App.Infra.DataBase.SqlServer.Ef.csproj" />
-    <ProjectReference Include="..\Src.Domain.Core\Src.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+D:\programming\cw-18\NugetPackages\bin\Debug\net8.0\NugetPackages.deps.json
+D:\programming\cw-18\NugetPackages\bin\Debug\net8.0\NugetPackages.runtimeconfig.json
+D:\programming\cw-18\NugetPackages\bin\Debug\net8.0\NugetPackages.dll
+D:\programming\cw-18\NugetPackages\bin\Debug\net8.0\NugetPackages.pdb
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.csproj.AssemblyReference.cache
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.AssemblyInfoInputs.cache
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.AssemblyInfo.cs
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.csproj.CoreCompileInputs.cache
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.sourcelink.json
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.dll
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\refint\NugetPackages.dll
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.pdb
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\NugetPackages.genruntimeconfig.cache
+D:\programming\cw-18\NugetPackages\obj\Debug\net8.0\ref\NugetPackages.dll

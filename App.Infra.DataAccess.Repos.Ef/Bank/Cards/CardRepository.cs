@@ -1,6 +1,7 @@
 ﻿
 using App.Infra.DataBase.SqlServer.Ef;
 using Microsoft.EntityFrameworkCore;
+using Src.Domain.Core.Bnak.BankTransactions.Entities;
 using Src.Domain.Core.Bnak.Cards.Entities;
 using Src.Domain.Core.Bnak.Cards.Repository;
 using Src.Domain.Core.Bnak.ResultModel;
@@ -57,7 +58,6 @@ namespace App.Infra.DataAccess.Repos.Ef.Bank.Cards
             BankDbContext.Update(card);
             BankDbContext.SaveChanges();
         }
-
         //public bool IsCardPasswordValid(string currentpassword)
         //{
         //    return BankDbContext.Cards.Any(c => c.password == currentpassword);

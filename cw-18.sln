@@ -23,11 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Service", "03-Service", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-AppService", "02-AppService", "{AA51D2B1-10A8-47C3-BC88-2DF6BA54DFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Src.Domain.Core", "Src.Domain.Core\Src.Domain.Core.csproj", "{06A74725-16BC-464E-B14C-78D8F83FF783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Src.Domain.Core", "Src.Domain.Core\Src.Domain.Core.csproj", "{06A74725-16BC-464E-B14C-78D8F83FF783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.AppService", "App.Domain.AppService\App.Domain.AppService.csproj", "{6934C1B7-2583-4675-8B8B-7171897ED42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain.AppService", "App.Domain.AppService\App.Domain.AppService.csproj", "{6934C1B7-2583-4675-8B8B-7171897ED42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain.Service", "App.Domain.Service\App.Domain.Service.csproj", "{B107E383-8888-4320-92F1-1437CC2583FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Domain.Service", "App.Domain.Service\App.Domain.Service.csproj", "{B107E383-8888-4320-92F1-1437CC2583FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-DataAccess", "01-DataAccess", "{4BB2F894-68A9-452F-9288-505C623D21B0}"
 EndProject
@@ -35,11 +35,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-DataBase", "02-DataBase"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Providers", "03-Providers", "{59F8FBCB-A7E9-428D-8E0C-528BA7A4DD83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infra.DataAccess.Repos.Ef", "App.Infra.DataAccess.Repos.Ef\App.Infra.DataAccess.Repos.Ef.csproj", "{90B7E3AF-FEA8-4990-BBFD-D6F4054D5E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Infra.DataAccess.Repos.Ef", "App.Infra.DataAccess.Repos.Ef\App.Infra.DataAccess.Repos.Ef.csproj", "{90B7E3AF-FEA8-4990-BBFD-D6F4054D5E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infra.DataBase.SqlServer.Ef", "App.Infra.DataBase.SqlServer.Ef\App.Infra.DataBase.SqlServer.Ef.csproj", "{5944ADFB-37E9-46DF-A30E-9176EE03928D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Infra.DataBase.SqlServer.Ef", "App.Infra.DataBase.SqlServer.Ef\App.Infra.DataBase.SqlServer.Ef.csproj", "{5944ADFB-37E9-46DF-A30E-9176EE03928D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EndPoints.Console.Bnak", "App.EndPoints.Console.Bnak\App.EndPoints.Console.Bnak.csproj", "{3E9B92E9-0E7C-4599-BA47-419436A523E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.EndPoints.Console.Bnak", "App.EndPoints.Console.Bnak\App.EndPoints.Console.Bnak.csproj", "{3E9B92E9-0E7C-4599-BA47-419436A523E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetPackages", "NugetPackages\NugetPackages.csproj", "{8BFFCE31-E1B0-4063-B29D-66779702C9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Endpoints.MVC.Bank", "App.Endpoints.MVC.Bank\App.Endpoints.MVC.Bank.csproj", "{99610388-0D0C-4659-9B57-5389D2104224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,14 @@ Global
 		{3E9B92E9-0E7C-4599-BA47-419436A523E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9B92E9-0E7C-4599-BA47-419436A523E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9B92E9-0E7C-4599-BA47-419436A523E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFFCE31-E1B0-4063-B29D-66779702C9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFFCE31-E1B0-4063-B29D-66779702C9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFFCE31-E1B0-4063-B29D-66779702C9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFFCE31-E1B0-4063-B29D-66779702C9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99610388-0D0C-4659-9B57-5389D2104224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99610388-0D0C-4659-9B57-5389D2104224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99610388-0D0C-4659-9B57-5389D2104224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99610388-0D0C-4659-9B57-5389D2104224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +103,8 @@ Global
 		{90B7E3AF-FEA8-4990-BBFD-D6F4054D5E8F} = {4BB2F894-68A9-452F-9288-505C623D21B0}
 		{5944ADFB-37E9-46DF-A30E-9176EE03928D} = {D4DD73F6-3667-4628-8ACE-B23A90786781}
 		{3E9B92E9-0E7C-4599-BA47-419436A523E8} = {B162B07B-1DBC-438A-BB1C-881DEB6C458D}
+		{8BFFCE31-E1B0-4063-B29D-66779702C9D2} = {4B0C912D-D500-457E-A5D1-914F6CF55A12}
+		{99610388-0D0C-4659-9B57-5389D2104224} = {B162B07B-1DBC-438A-BB1C-881DEB6C458D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3084DD1C-151E-4FB2-9670-4D0887640503}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj": {}
+    "D:\\programming\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj": {
+    "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
         "projectName": "App.Domain.AppService",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
+        "projectPath": "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\App.Domain.AppService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj"
+              "D:\\programming\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj": {
+                "projectPath": "D:\\programming\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj": {
+    "D:\\programming\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj",
         "projectName": "App.Domain.Service",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj",
+        "projectPath": "D:\\programming\\cw-18\\App.Domain.Service\\App.Domain.Service.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.Service\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\App.Domain.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj"
+              "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj": {
+                "projectPath": "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj": {
+    "D:\\programming\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj",
         "projectName": "App.EndPoints.Console.Bnak",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj",
+        "projectPath": "D:\\programming\\cw-18\\App.EndPoints.Console.Bnak\\App.EndPoints.Console.Bnak.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.EndPoints.Console.Bnak\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\App.EndPoints.Console.Bnak\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,8 +159,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj"
+              "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj": {
+                "projectPath": "D:\\programming\\cw-18\\App.Domain.AppService\\App.Domain.AppService.csproj"
               }
             }
           }
@@ -199,14 +199,14 @@
         }
       }
     },
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj": {
+    "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj",
         "projectName": "App.Infra.DataAccess.Repos.Ef",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj",
+        "projectPath": "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\App.Infra.DataAccess.Repos.Ef.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataAccess.Repos.Ef\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\App.Infra.DataAccess.Repos.Ef\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,11 +224,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj"
-              },
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj"
+              "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj": {
+                "projectPath": "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj"
               }
             }
           }
@@ -267,14 +264,14 @@
         }
       }
     },
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj": {
+    "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj",
         "projectName": "App.Infra.DataBase.SqlServer.Ef",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj",
+        "projectPath": "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\App.Infra.DataBase.SqlServer.Ef.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\App.Infra.DataBase.SqlServer.Ef\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,8 +289,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj"
+              "D:\\programming\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj": {
+                "projectPath": "D:\\programming\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj"
               }
             }
           }
@@ -348,14 +345,14 @@
         }
       }
     },
-    "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj": {
+    "D:\\programming\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj",
+        "projectUniqueName": "D:\\programming\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj",
         "projectName": "Src.Domain.Core",
-        "projectPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj",
+        "projectPath": "D:\\programming\\cw-18\\Src.Domain.Core\\Src.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Mr. X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr. X\\source\\repos\\cw-18\\Src.Domain.Core\\obj\\",
+        "outputPath": "D:\\programming\\cw-18\\Src.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mr. X\\AppData\\Roaming\\NuGet\\NuGet.Config",

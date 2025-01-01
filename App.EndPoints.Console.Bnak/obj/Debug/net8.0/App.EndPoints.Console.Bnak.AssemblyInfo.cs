@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("App.EndPoints.Console.Bnak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f852ba9035d8b2e4fa03cee92be54fdaa73b83b")]
 [assembly: System.Reflection.AssemblyProductAttribute("App.EndPoints.Console.Bnak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("App.EndPoints.Console.Bnak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

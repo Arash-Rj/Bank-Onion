@@ -1,0 +1,103 @@
+﻿@using Src.Domain.Core.Bnak.Users.Entities
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - App.Endpoints.MVC.Bank</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/App.Endpoints.MVC.Bank.styles.css" asp-append-version="true" />
+        <style>
+        #bt-login:hover {
+            background-image: linear-gradient(135deg,rgb(70, 205, 122),rgb(0, 162, 255));
+        } 
+        #bt-login {
+            background-image: linear-gradient(135deg,rgb(26, 132, 67),rgb(9, 71, 107));
+        }
+        #bt-register:hover {
+            background-image: linear-gradient(135deg,rgb(6, 17, 12),rgb(0, 162, 25));
+        }
+        #bt-register {
+            background-image: linear-gradient(135deg,rgb(54, 12, 67),rgb(9, 71, 90));
+        }
+        #bt-logout:hover{
+           background-color:tomato;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">App.Endpoints.MVC.Bank</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        @if (OnlineUser.user is not null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Transfer">Transfer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Card" asp-action="Index">Your Cards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">List of Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Card" asp-action="ChangePassword">Change CardPassword</a>
+                            </li>
+                        }
+                        @if (OnlineUser.user is null)
+                        {
+                            <li id="bt-login" class="nav-item float-end btn-outline-light " style="border-radius:10px; margin-left:auto;">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Login">
+                                    Login
+                                </a>
+                            </li>
+                            <li id="bt-register" class="nav-item float-end btn-outline-light " style="border-radius:10px; margin-left:8px;">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Register">
+                                    Register
+                                </a>
+                            </li>
+                        }
+                        @if (OnlineUser.user is not null)
+                        {
+                            <li id="bt-logout" class="nav-item float-end btn-outline-light btn-danger " style="border-radius:10px; margin-left:auto;">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Logout">
+                                    Logout
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - App.Endpoints.MVC.Bank - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

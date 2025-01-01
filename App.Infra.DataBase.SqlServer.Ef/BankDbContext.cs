@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using Src.Domain.Core.Bnak.BankTransactions.Entities;
 using Src.Domain.Core.Bnak.Cards.Entities;
 using Src.Domain.Core.Bnak.Users.Entities;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;

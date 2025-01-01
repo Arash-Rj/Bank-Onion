@@ -1,0 +1,89 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+@using Src.Domain.Core.Bnak.Users.Entities
+@model User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tansfer Page</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/App.Endpoints.MVC.Bank.styles.css" asp-append-version="true" />
+    <style>
+        body,html 
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            height: 650px ;
+            margin: 0%;
+            background-color: #316b6a;
+        }
+        .transfer-container 
+        {
+            text-align: center;
+            padding: 50px;
+            border-radius: 10%;
+            margin: 25px;
+            width: 500px;
+            background-color: rgb(28, 184, 137);        
+        }
+        input[type="text"], input[type="number"], button {
+            width: 85%;
+            padding: 16px;
+            margin: 7px 2px;
+            border: 2px solid #140808;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #33824f;
+            color: rgb(0, 0, 0);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p style="height: 70vh; width: 80vh; font-size: 150px;">
+        Transfer with ease.
+    </p>
+    <div class="transfer-container" style="margin-right: 30vh; margin-top: 30vh;" >
+      <form asp-action="Transfer" method="post">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Cards</label>
+            <select class="form-select" id="inputGroupSelect01" name="sourcecard">
+                <option selected>Choose Card...</option>      
+                @for(int i=0;i<Model.Cards.Count;i++)
+                {
+                        <option value="@Model.Cards[i].CardNumber">@Model.Cards[i].CardNumber</option>
+                }        
+            </select>
+        </div>
+        <label style="color: rgb(144, 246, 255); font-size: 20px;">Recipient Card Number</label>
+        <input type="text" name="destcard" placeholder="Recipient Card Number" required>
+        <label style="color: rgb(144, 246, 255); font-size: 20px;">Transfer Amount</label>
+        <input type="number" name="amount" placeholder="Amount" required>
+        <div class="input-group mb-3 mt-3" style="width:85%; margin-left:29px;">
+            <a class="btn btn-outline-success btn-success" type="button" style="color:white; height:auto;" id="button-addon1" asp-action="RandomCode">Code</a>
+            <input type="number" class="form-control" name="code" style="margin:0px;" placeholder="Code.." aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        @if(TempData["RandomCodeMessage"] is not null)
+            {
+                <div class="alert alert-warning">@TempData["RandomCodeMessage"]</div>
+            }
+            @if (TempData["CodeErrorMessage"] is not null)
+            {
+                <div class="alert alert-danger">@TempData["CodeErrorMessage"]</div>
+            }
+        <button type="submit">Transfer</button>
+      </form>
+    </div>
+</body>
+
+</html>

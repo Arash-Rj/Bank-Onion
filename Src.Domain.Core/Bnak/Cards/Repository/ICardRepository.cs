@@ -1,4 +1,5 @@
 ﻿
+using Src.Domain.Core.Bnak.BankTransactions.Entities;
 using Src.Domain.Core.Bnak.Cards.Entities;
 using Src.Domain.Core.Bnak.ResultModel;
 using System;
@@ -19,5 +20,6 @@ namespace Src.Domain.Core.Bnak.Cards.Repository
         public bool IsCardActive(string cardnumber);
         public float? GetCardBalance(string cardnumber);
         public void Update(Card card);
+        
     }
 }

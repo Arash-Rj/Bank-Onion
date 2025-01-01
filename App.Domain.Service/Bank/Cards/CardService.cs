@@ -2,6 +2,7 @@
 using App.Infra.DataAccess.Repos.Ef.Bank.Cards;
 using App.Infra.DataBase.SqlServer.Ef;
 using Newtonsoft.Json;
+using Src.Domain.Core.Bnak.BankTransactions.Entities;
 using Src.Domain.Core.Bnak.Cards.Repository;
 using Src.Domain.Core.Bnak.Cards.Service;
 using Src.Domain.Core.Bnak.ResultModel;
@@ -19,15 +20,10 @@ namespace App.Domain.Service.Bank.Cards
         private string path = @"D:/programming/BAnk/Bank/Bank/Codes.txt";
         public Result IsAmountenough(string sourcecardnumber, string destinationcardnumber, float amount)
         {
-            var destcardamount = CardRepository.GetCardAmount(destinationcardnumber);
             var sourcecardamount = CardRepository.GetCardAmount(sourcecardnumber);
-            if (destcardamount > amount && sourcecardamount > amount)
+            if (sourcecardamount > amount)
             {
                 return new Result(true);
-            }
-            if (destcardamount < amount)
-            {
-                return new Result(false, "The Destination card Balance is not enough.");
             }
             return new Result(false, "The Source card Balance is not enough.");
         }
