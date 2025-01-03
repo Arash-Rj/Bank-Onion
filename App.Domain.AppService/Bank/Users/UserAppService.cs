@@ -14,8 +14,11 @@ namespace App.Domain.AppService.Bank.Users
 {
     public class UserAppService : IUserAppService
     {
-        IUserService userService = new UserService();
-
+        private readonly IUserService userService;
+        public UserAppService(IUserService UserService)
+        {
+            userService = UserService;
+        }
         public Result ChangeUserPass(string email, string newpass)
         {
            return userService.ChangeUserPass

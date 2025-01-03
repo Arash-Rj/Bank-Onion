@@ -17,7 +17,11 @@ namespace App.Domain.Service.Bank.Users
 {
     public class UserService: IUserService
     {
-        IUserRepository _userRepository = new UserRepository();
+        private readonly IUserRepository _userRepository;
+        public UserService(IUserRepository userRepository)
+        {
+            _userRepository = userRepository;
+        }
 
         public Result ChangeUserPass(string email, string newpass)
         {

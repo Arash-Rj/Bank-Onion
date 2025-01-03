@@ -13,7 +13,11 @@ namespace App.Domain.AppService.Bank.Cards
 {
     public class CardAppService : ICardAppService
     {
-        ICardService cardService = new CardService();
+        private readonly ICardService cardService;
+        public CardAppService(ICardService CardService)
+        {
+            cardService = CardService;
+        }
         static Dictionary<int, DateTime> Codes = new Dictionary<int, DateTime>();
         public Result CardBalance(string cardnumber)
         {

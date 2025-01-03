@@ -16,8 +16,13 @@ namespace App.Domain.Service.Bank.BankTransactions
 {
     public class TransactionService: ITransactionService
     {
-        ITransactionRepository Transactionrepository = new TransactionRepository();
-        ICardService cardservice = new CardService();
+        private readonly ITransactionRepository Transactionrepository;
+        private readonly ICardService cardservice;
+        public TransactionService(ITransactionRepository transactionRepository, ICardService cardService)
+        {
+            Transactionrepository = transactionRepository;
+            cardservice = cardService;
+        }
         public Result Transfer(string sourcecard, string destinationcard, float amount)
         {
             var transactionamount = Transactionrepository.TransactionAmountInDay(sourcecard);

@@ -16,7 +16,11 @@ namespace App.Domain.Service.Bank.Cards
 {
     public class CardService: ICardService
     {
-        ICardRepository CardRepository = new CardRepository();
+        private readonly ICardRepository CardRepository ;
+        public CardService(ICardRepository cardRepository)
+        {
+            CardRepository = cardRepository ;
+        }
         private string path = @"D:/programming/BAnk/Bank/Bank/Codes.txt";
         public Result IsAmountenough(string sourcecardnumber, string destinationcardnumber, float amount)
         {

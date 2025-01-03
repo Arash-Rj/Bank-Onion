@@ -14,7 +14,11 @@ namespace App.Domain.AppService.Bank.BankTransactions
 {
     public class TransactionAppService : ITransactionAppService
     {
-        ITransactionService transactionService = new TransactionService();
+        private readonly ITransactionService transactionService;
+        public TransactionAppService(ITransactionService TransactionService)
+        {
+            transactionService = TransactionService;
+        }
         public List<BankTransaction> CardTransactionList(string cardbnumber)
         {
             return transactionService.CardTransactionList(cardbnumber);

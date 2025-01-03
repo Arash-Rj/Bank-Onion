@@ -5,7 +5,10 @@ using App.Domain.Service.Bank.Cards;
 using App.Domain.Service.Bank.Users;
 using App.Endpoints.MVC.Bank.Models;
 using Microsoft.AspNetCore.Mvc;
+using Src.Domain.Core.Bnak.BankTransactions.AppService;
+using Src.Domain.Core.Bnak.Cards.AppService;
 using Src.Domain.Core.Bnak.ResultModel;
+using Src.Domain.Core.Bnak.Users.AppService;
 using Src.Domain.Core.Bnak.Users.Entities;
 using Src.Domain.Core.Bnak.Users.Service;
 
@@ -13,9 +16,15 @@ namespace App.Endpoints.MVC.Bank.Controllers
 {
     public class UserController : Controller
     {
-        UserAppService userAppService = new UserAppService();
-        TransactionAppService transactionAppService = new TransactionAppService();
-        CardAppService cardAppService = new CardAppService();
+        private readonly IUserAppService userAppService;
+        private readonly ITransactionAppService transactionAppService;
+        private readonly ICardAppService cardAppService;
+        public UserController(IUserAppService userAppService, ICardAppService cardAppService, ITransactionAppService transactionAppService)
+        {
+            this.userAppService = userAppService;
+            this.transactionAppService = transactionAppService;
+            this.cardAppService = cardAppService;
+        }
         public IActionResult Index()
         {
             var users = userAppService.GetAllusers();
